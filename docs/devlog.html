@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Devlog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="devlog.html">Devlog</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <main>
+        <article>
+            <h3>Raycasting Logic</h3>
+            <p>
+                The engine converts a 2D grid-based map into a pseudo 3D
+                view by casting one ray per screen column and calculating
+                wall intersections using the DDA algorithm.
+            </p>
+        </article>
+
+        <article>
+            <h3>Technical Challenges</h3>
+            <p>
+                One major challenge was eliminating the fish-eye distortion
+                by using perpendicular wall distance instead of raw ray length,
+                ensuring visual correctness.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        © 2026 Open Source Project
+    </footer>
+
+</body>
+
+</html>
